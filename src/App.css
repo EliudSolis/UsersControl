@@ -1,0 +1,134 @@
+
+body{
+ background-color: #222831;
+ color: white;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ margin: 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card{
+    width: 280px;
+    height: 250px;
+    margin: 16px;
+    padding: 8px;
+    border: 2px solid #00FFF5;
+    border-radius: 8px;
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    
+}
+
+.card:hover{
+    scale: 1.01;
+    transition: .2s;
+    box-shadow: 0px 0px 10px 1px aqua;
+}
+
+.card__list{
+    list-style: none;
+    text-align: left;
+}
+
+.card__item{
+    font-weight: bolder;
+    color: #00ADB5;
+}
+
+.card__span{
+    font-weight: lighter;
+    color: white;
+}
+
+.card__btn__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.card__btn{
+    border: none;
+    background-color: #00ADB5;
+    margin: 2px;
+    height: 32px;
+    border-radius: 8px;color: white;
+    width: 64px;
+    cursor: pointer;  
+    transition: .3s;  
+    
+}
+
+.card__btn:hover{
+    background-color: #00FFF5;
+    transition: .3s;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    gap: 2px;
+}
+
+.form__list{
+    list-style: none;
+    font-weight: bolder;
+    padding: 0;
+    
+}
+
+.form__element{
+    align-items: center;
+    display: flex;
+    width: fit-content;
+}
+
+.form__name__input{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0;
+    margin: 0;
+    }
+
+.form__name__input input{
+    width: 82px;
+    margin-right: 2px;
+}
+
+input{
+    border-radius: 16px;
+    height: 22px;
+    gap: 2px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+}
+
+.bx{
+    font-size: 32px;
+}
+
+.form__btn{
+    width:190px;
+    height: 28px;
+    align-items: center;
+    margin: auto;
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 16px;
+
+
+}
+
+
