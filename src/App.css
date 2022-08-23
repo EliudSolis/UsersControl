@@ -96,13 +96,13 @@ body{
 .form__name__input{
     display: flex;
     justify-content: flex-end;
-    gap: 0;
-    margin: 0;
+
     }
 
 .form__name__input input{
     width: 82px;
-    margin-right: 2px;
+    margin-right: 8px;
+    
 }
 
 input{
